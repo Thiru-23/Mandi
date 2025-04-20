@@ -1,0 +1,57 @@
+
+.nav-link {
+    font-size:1.25rem;
+}
+.act{
+    color: #FFF;
+    border-bottom: 3px solid white;
+
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+.yellowHover:hover {
+    background: orange;
+    padding: 0.75em 1.5em;
+    color:white;
+    border-bottom:0;
+    
+    
+    
+}
+
+.btn{
+    /* margin-left: 20px; */
+    /* margin-top: 10px; */
+    padding: 0.3rem 1rem;
+}
+
+.bg-black {
+    background-color: #000000;
+}
+
+.text-greenyellow {
+    color:#198754;
+}
+
+h1 {
+    margin-bottom:0;
+}
+
+ul {
+    margin-bottom:0;
+    padding-left:0;
+    text-align: center;
+}
+
+.pad-y {
+    padding-top:0.7em !important;
+    padding-bottom:1em !important;
+}
+
+.ft-weight-bold {
+    font-weight:bold;
+}

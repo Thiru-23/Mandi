@@ -1,0 +1,44 @@
+.card{
+  /* left: %; */
+  margin: 0 auto;
+    width: 60%;
+    /* background-color: rgba(0, 0, 0, 0.363); */
+    background-color: #fffffff1;
+    border-radius: 35px;
+}
+.card-title{
+  margin-bottom: 3rem;
+  color: #147B0B;
+
+}
+.smalltext{
+  font-size: 1.1rem;
+  color: rgb(95, 95, 95);
+  /* text-decoration: none; */
+}
+  .btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+    color: #147B0B;
+    background-color: #89f70cde
+    ;
+  }
+  
+  .btn-google {
+    color: white !important;
+    background-color: #15944ee0;
+  }
+  
+  .btn-facebook {
+    color: white !important;
+    background-color: #0a4cdad5;
+  }
+  
+  @media (max-width:768px) {
+    .card{
+      width: 75%;
+      border-radius: 10px;
+    }
+  }
+  

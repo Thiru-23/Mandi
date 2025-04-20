@@ -1,0 +1,12 @@
+.input-group-text{
+    background-color: none;
+    background: none;
+    margin-right: 1.8rem;
+    margin-bottom: 2rem;
+    padding: 0 0;
+    border: none;
+}
+.input-group{
+    flex-wrap: nowrap;
+}
+

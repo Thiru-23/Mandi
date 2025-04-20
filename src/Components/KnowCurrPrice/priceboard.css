@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;700&display=swap');
+
+
+body {
+    /* background: green !important; */
+}
+
+.board {
+    margin: 2rem 0;
+    display:block;
+    width:100%;
+    position:relative;
+}
+
+.blackboard {
+    width:100%;
+    height:200px;
+}
+
+.boardContent {
+    position:absolute;
+    font-family: 'Kalam', cursive;
+    z-index:10;
+    top:15%;
+    left:5%;
+    right:5%;
+    bottom:0;
+    color:white;
+}
+
+.boardContent-heading {
+    /* text-decoration:underline; */
+    margin-bottom:1.2em;
+    width:100%;
+    text-align: center;
+    font-weight:700;
+    overflow-wrap: break-word;
+}
+
+.cropInfo {
+    position: absolute;
+    top:30%;
+    bottom:20%;
+    right:2%;
+    left:2%;
+}
+
+.cropImg{
+    width:30%;
+    border-radius:8px;
+    height:100%;
+}
+
+.giveGap {
+    gap:2em;
+}
+
+@media(min-width:768px) {
+    .boardContent-heading {
+            font-size: 48px;
+    }
+
+    .blackboard {
+        height:400px;
+    }
+
+    .boardContent {
+        font-size:32px;
+    }
+}
